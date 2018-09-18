@@ -1,0 +1,121 @@
+.dark_primary_color { background-color:#181f29;  /*AZUL OSCURO*/}
+.dark_secondary_color{ background-color:#F4F4F4; /*GRIS CLARO*/ }
+.dark_button_color{ background-color:#94A2B4; /*AZUL OSCURO*/ }
+.divider_color{color:#94A2B4!important;/* GRIS*/}
+.primary_color{ color: #4A5A6D;/* GRIS OSCURO */}
+.light_primary_color{ background-color: #02C39A; /*VERDE*/}
+.text_icons{color: #02C39A; /*VERDE*/}
+.secondary_text{ background-color: #d4eede; /*VERDE AGUA*/}
+.secondary_text-a { color: #6CBAEB; /*AZUL CIELO*/ }
+.divider_color-a { color:#FFFFFF; }
+.divider_color-b { color: #8a8a8a; }
+
+/*ESTILOS EL CINTILLO*/
+
+.cintillo p{ margin:5px; }
+.cintillo p img{ width:20px; height:20px }
+
+
+/*ESTILOS DEL LOGO*/
+
+.logo { margin:15px; }
+
+/*ESTILOS DEL BUSCADOR*/
+
+#custom-search-input{ margin: 5px; border: solid 1px #94A2B4; border-radius: 0.5px; width:300px;}
+#custom-search-input input{ border: 0; box-shadow: none; border-radius:0px;}
+#custom-search-input button{ margin: 2px 0 0 0;background: none;box-shadow: none;border: 0;padding: 0 8px 0 10px;}
+#custom-search-input button:hover{ border: 0; box-shadow: none; }
+#custom-search-input .glyphicon-search{ font-size: 15px;}
+.glyphicon-search{background-color:#94A2B4;}
+
+/*ESTILOS DEL MENU*/
+
+/*.body-wrap {min-height: 700px;}*/
+.body-wrap {position: relative; z-index: 1;}
+.nav>li>a {padding: 10px 10px; }
+.borde { border-bottom-style: solid; border-bottom-color: #94A2B4; border-top-color: #94A2B4; }
+.icon-bar {background-color:#94A2B4;}
+nav {margin-top:5px;}
+
+/*ESTILOS DEL SLIDER*/
+
+.container {position: relative;}
+.mySlides {display: none;}
+.mySlides img {width:102%; height:394px;}
+.cursor {cursor: pointer;}
+.prev,
+.next {cursor: pointer;position: absolute;top: 60%;width: auto;padding: 10px;margin-top: -50px;color: white;font-weight: bold;font-size: 20px;border-radius: 0 3px 3px 0;user-select: none; -webkit-user-select: none; background-color: rgba(0, 0, 0, 0.8);}
+.next {right:0; border-radius: 0px 0 0 0px;}
+.prev:hover,
+.next:hover {background-color: rgba(0, 0, 0, 0.8);}
+
+/*ESTILOS IMAGENES*/
+
+.imagenes {  margin-top:10px; }
+
+/*media queries*/
+
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+		.imagenes a img {
+		    width: 100%;
+    		height: auto;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+		.imagenes a img {
+		    width: 50px;
+			height: 250px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+		.imagenes a img {
+			width: 279px;
+			height: 250px;
+  
+	}
+}
+
+/*ESTILOS PRODUCTOS*/
+
+.productos {border-bottom:1px solid #ddd; border-top:1px solid #ddd; display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:space-around;}
+.productos_a {display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:space-between; }
+.prouct-lin { border-bottom:1px solid #ddd; }
+.productos_a img { width:60px; height:70px; }
+.productos_a h4 { font-size: 15px; font-weight:bold; }
+.productos_a p { font-size: 12px;}
+
+.btn-a:hover { background-color: #02C39A; border-color:transparent; } 
+.btn-b:hover { background-color: #94A2B4; border-color:transparent; }
+.btn-a {border-color: #02C39A;  padding: 15px 25px; width:150px;}
+.btn-b{ border-color: #94A2B4; padding: 15px 18px; width:80px;}
+.info { border-bottom:1px solid #ddd; border-top:1px solid #ddd; border-right:1px solid #ddd; border-left:1px solid #ddd; }
+.info-a { padding-left:5px;  }
+
+.info h4 { font-weight:bold; }
+.info h2{ font-weight:bold; font-size: 40px; }
+.info p{  font-size: 12px; }
+
+.tablero ul li { line-height:30px; }
+
+.error { padding:2px; text-align:center; }
+
+/*ESTILOS DEL FOOTER*/
+
+.footer img{ width:50px; height:50px; }
+.footer p{ font-weight:bold; font-size:18px; }
+.footer-A p { font-size:12px; float:left; }
+.pie {  }
+
+
+/*ESTILOS CONTENIDO NOSOTROS*/
+
+.contenido h4 { font-weight: bold; }
+.contenido h5 { font-weight:bold; }
+.contenido p { line-height:40px; }
+.contenido a { line-height:50px; }
